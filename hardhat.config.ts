@@ -14,7 +14,7 @@ const config: HardhatUserConfig = {
   networks: {
     hardhat: {
       forking: {
-        enabled: false,
+        enabled: true,
         url: `https://rpc.ankr.com/eth_goerli`
       }
     },
